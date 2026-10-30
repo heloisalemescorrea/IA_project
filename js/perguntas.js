@@ -8,9 +8,18 @@ export const perguntas = [
             },
             {
                 texto: "Isso é maravilhoso!",
-                afirmacao: "afirmacao"
-            }           
-            
+                afirmacao: ["no inicio ficou com medo do que essa tecnologia pode fazer.",
+                    "Achou assustador pensar na qual velocidade na qual a tecnologia esta avançando."
+                ],
+                proxima: 1,
+            },           
+            {
+                texto: "Isso é maravilhoso!",
+                afirmacao: [quis saber como usar a IA no seu dia a dia.",
+                    "Foi atras de videos, artigos e mais informacoes sobre como utilizar essa tecnologia."
+                ],
+                proxima:2,
+            }
         ]
     },
     {

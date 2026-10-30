@@ -52,4 +52,12 @@ function mostraResultado(){
     caixaResultado.classlist.remove("mostrar");
     mostraPergunta();
   }
+
+  function substituiNome(){
+    for(const pergunta of pergunta){
+        pergunta.enunciado = pergunta.enunciado.replace(/você/g, nome);
+    }
+  }
+
+  substituiNome();
 mostraPergunta();
